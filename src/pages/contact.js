@@ -4,7 +4,13 @@ import Link from 'gatsby-link'
 
 const Contacts = () => (
   <div>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit officiis ab pariatur necessitatibus cum recusandae laboriosam illo sunt consectetur culpa est, accusantium vel, odio quae? Ut nemo mollitia repellendus modi!</p>
+    <p>
+      <ul className='contact-info'>
+        <li>E-Mail: theelloydsta@gmail.com</li>
+        <li>Phone:(310) 908-6968</li>
+        <li>instagram: @customs_by_lloyd</li>
+      </ul>
+    </p>
   </div>
 )
 

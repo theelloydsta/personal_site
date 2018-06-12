@@ -12,10 +12,7 @@ export default ({ close }) => (
 
     }}>
       <li onClick={close}>
-        <Link to="/home">Home </Link>
-      </li>
-      <li onClick={close}>
-        <Link to="/about">About </Link>
+        <Link to="/" exact>Home </Link>
       </li>
       <li onClick={close}>
         <Link to="/projects">Projects </Link>

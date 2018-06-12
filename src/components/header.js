@@ -15,9 +15,7 @@ const Header = ({ siteTitle }) => (
 
   >
 
-    <a>
-      <img src={logo} alt="logo" />
-    </a>
+
  
 
     <div

@@ -35,10 +35,11 @@ const App = ({children, data}) =>
     >
       {close => <Menu close={close} />}
     </Popup>
-    <div>
+    <div className='container'>
 
     
       {children()}
+      
     </div>
   </div>
 )
